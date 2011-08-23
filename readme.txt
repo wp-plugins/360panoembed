@@ -6,17 +6,17 @@ Requires at least: 3.0
 Tested up to: 3.2.1
 Stable tag: trunk
 
-This plugin allows you to easily embed a panorama created using Occiptal's 360 Panorama App. 
+This plugin allows you to easily embed a panorama created using Occipital's 360 Panorama App. 
 
 == Description == 
 
-I created this plugin to easily embed panoramas created by the 360 Panorama available for iPhone/iPad. Some WordPress users cannot
-easily embed Javascript in posts or pages, especially if you switch between HTML and Visual mode in the editor. This shortcode will allow you 
-to switch between views without losing your embed. 
+This plugin allows users to easily embed panoramas created by the 360 Panorama app on iPhone/iPad. Some WordPress users cannot
+easily embed Javascript in posts or pages, especially if you switch between HTML and Visual mode in the editor. This shortcode plugin will allow you 
+to switch between views without losing your embedded panorama. 
 
 == Usage ==
 
-To use it, merely call the shortcode in your post or page. 
+To use it, call the shortcode in your post or page. 
 
 Example:
 
@@ -42,7 +42,7 @@ You can also specify the width and height of the embed if you need it to fit in 
 
 == Frequently Asked Questions ==
 
-* *Where can I get this plugin?*
+* *Where can I get the 360 Panorama app?*
 You can get the plugin [here](http://click.linksynergy.com/fs-bin/stat?id=WhZUo7UZ6Qs&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252F360-panorama%252Fid377342622%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&ul=site)
 
 == Screenshots ==
