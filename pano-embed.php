@@ -3,7 +3,7 @@
 Plugin Name: 360 Panorama Embed
 Plugin URI: http://highedwebtech.com
 Description: A shortcode to embed 360 Panoramas created by the 360 Panorama App
-Version: 0.1
+Version: 0.2
 Author: Mike Richwalsky
 Author URI: http://highedwebtech.com
 
@@ -30,7 +30,6 @@ Author URI: http://highedwebtech.com
 
 
 function pano_embed_shortcode($atts){
-	wp_enqueue_script('scriptaculous');
 	$query_atts = shortcode_atts(
 			array('pano'=>'sS5Cpw',
 				  'width'=>'620',
