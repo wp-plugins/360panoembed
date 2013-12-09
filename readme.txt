@@ -3,8 +3,8 @@ Contributors: mrichwalsky
 Donate link: http://highedwebtech.com/wordpress-plugins/
 Tags: panorama, occipital, 360 panorama, panorama embed, 360 app, 360 app embed
 Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: trunk
+Tested up to: 3.7.1
+Stable tag: 0.3
 
 This plugin allows you to easily embed a panorama created using Occipital's 360 Panorama App. 
 
@@ -36,6 +36,13 @@ You can also specify the width and height of the embed if you need it to fit in 
 1. Use the shortcode in  your posts and pages as needed.
 
 == Changelog ==
+
+=0.3=
+* Remove styling from embed
+* Use latest embed code from Occipital for embed
+
+=0.2=
+* Clean up code
 
 =0.1=
 * First version of embedding the panoramas in posts and pages

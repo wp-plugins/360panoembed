@@ -2,8 +2,8 @@
 /*
 Plugin Name: 360 Panorama Embed
 Plugin URI: http://highedwebtech.com
-Description: A shortcode to embed 360 Panoramas created by the 360 Panorama App
-Version: 0.2
+Description: A shortcode to embed 360 Panoramas created by the 360 Panorama App from Occipital
+Version: 0.3
 Author: Mike Richwalsky
 Author URI: http://highedwebtech.com
 
@@ -31,15 +31,11 @@ Author URI: http://highedwebtech.com
 
 function pano_embed_shortcode($atts){
 	$query_atts = shortcode_atts(
-			array('pano'=>'sS5Cpw',
+			array('pano'=>'AcXGwu',
 				  'width'=>'620',
 				  'height'=>'300'), $atts);
-				
-	return sprintf('<div style="border: 3px solid #B2B2B2; border-radius: 5px; width:%spx;"><script type="text/javascript" src="http://occipital.com/360/embed.js?%s"></script></div>', $query_atts['width'],http_build_query($query_atts));
-	
-	
 
-	
+	return sprintf('<script src="http://occipital.com/360/embed.js?%s"></script>',http_build_query($query_atts));
 }
 
 add_shortcode('panoembed','pano_embed_shortcode');
